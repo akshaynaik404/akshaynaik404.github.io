@@ -9,20 +9,15 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
 # User setting
-owner:
-email:
-facebook_username:
-twitter_username:
-github_username:
-address:
-  - line:
-  - line:
-  # Feel free to add more lines here 
-telephone:
-copyright:
+owner: Akshay Naik
+email:  akshaynaik404@gmail.com
+facebook_username:  akshaynaik404
+twitter_username: akshaynaik404
+github_username:  akshaynaik404
+linkedin_username: akshaynaik404
+codepen_username: akshaynaik404
 
-# API settings
-google_api_key:
+copyright: akshaynaik.me
 
 # Build settings
 markdown: kramdown

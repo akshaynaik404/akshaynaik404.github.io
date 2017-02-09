@@ -2,28 +2,19 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-10 col-lg-offset-1 text-center">
-        <h4><strong>{{ site.owner }}</strong>
-        </h4>
-        <p>
-          {% for address in site.address %}
-          {{ address.line }}<br>
-          {% endfor %}
-        </p>
-        <ul class="list-unstyled">
-          <li><i class="fa fa-phone fa-fw"></i> {{ site.telephone }}</li>
-          <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-          </li>
-        </ul>
+        <a class="email" href="mailto:akshaynaik404@gmail.com">akshaynaik404@gmail.com</a>
         <br>
         <ul class="list-inline">
           <li>
-            <a href="https://facebook.com/{{ site.facebook_username }}"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+            <a target="_blank" href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+          </li>
+            <a target="_blank" href="https://codepen.io/{{ site.codepen_username }}"><i class="fa fa-codepen fa-fw fa-3x"></i></a>
           </li>
           <li>
-            <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+            <a target="_blank" href="https://in.linkedin.com/in/{{ site.linkedin_username }}"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
           </li>
           <li>
-            <a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github fa-fw fa-3x"></i></a>
+            <a target="_blank" href="https://github.com/{{ site.github_username }}"><i class="fa fa-github fa-fw fa-3x"></i></a>
           </li>
         </ul>
         <hr class="small">
