@@ -197,18 +197,18 @@ hr.small {
 
 .portfolio {
     padding: 50px 0;
+    font-size: 1.2em;
 }
 
 .portfolio-item {
     margin-bottom: 30px;
+    color: #000;
 }
-
-.img-portfolio {
-    margin: 0 auto;
+a.portfolio-link {
+  color: #B27A00
 }
-
-.img-portfolio:hover {
-    opacity: 0.8;
+.portfolio-item a:hover {
+  color: #FFAF00;
 }
 
 /* Call to Action */
